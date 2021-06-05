@@ -39,7 +39,7 @@ const todoReducers=(state=initialData,action)=>{
                    currentTodo:null
                }
 
-            case "DELETE_TODO_ASYNC":
+            case "DELETE_TODO":
                 const newList=state.list.filter((elem)=> elem.id !== action.id)
                 return{
                     ...state,

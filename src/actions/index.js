@@ -27,7 +27,7 @@ export const updateTodo=(data)=>{
 
 export const deleteTodo=(id)=>{
     return {
-        type:"DELETE_TODO_ASYNC",
+        type:"DELETE_TODO",
         id
     }
 }
